@@ -12,4 +12,5 @@ function parallax(){
     $("#parallax3").css("background-position", "center "+(120+(((wScroll*.2)*.5)*-1))+"px");
     $("#AboutMeDiv2").css("margin-top", (-15+((wScroll*12)/625))+"%");
     $("#ParisSelfie").css("background-position", "right " + (500+(((wScroll*.5)*.5)*-1))+"px");
+    $("#SpeakIT").css("background-position", "left " + (750+(((wScroll*.5)*.5)*-1))+"px");
 }

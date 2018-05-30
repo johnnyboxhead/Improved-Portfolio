@@ -17,14 +17,19 @@
 #SignatureDiv {
     float: left;
     color: whitesmoke;
+    font-size: 10px;
+    height:100px;
+    width: 250px;
+    text-align: center;
 }
 
 #SignatureImage {
-    height: 200px;
-    width: 300px;
+    height: 100px;
+    width: 200px;
     opacity: .25;
-    
 }
+
+
 
 #parallax1 {
     /* The image used */
@@ -117,11 +122,6 @@
 }
 
 #ParisSelfie{
-    /* background-image: url("images/ParisSelfie.JPG");
-    float: right;
-    width: 30%;
-    height: 200px;
-    border: 1px solid red; */
     background-image: url("images/ParisSelfie.jpg");
 
     min-height: 550px; 
@@ -139,4 +139,22 @@
     color: whitesmoke;
     background-color: black;
     height: 100px;
+}
+
+#Project1 {
+    float: right;
+    width: 44%;
+    margin-right: 5%;
+    min-height: 600px;
+}
+
+#SpeakIT {
+    background-image: url("images/SpeakITScreenShot.jpg");
+
+    min-height: 550px; 
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-top: 0%;
 }
