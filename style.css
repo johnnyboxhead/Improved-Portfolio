@@ -81,13 +81,13 @@
 }
 
 
-.BreakDiv{
+/* .BreakDiv{
     text-align: center;
     font-size: 24px;
     color: whitesmoke;
     background-color: black;
     height: 100px;
-}
+} */
 
 #AboutMeDiv1{
     float: left;
@@ -108,4 +108,35 @@
     background-color: black;
     color: whitesmoke;
     padding: 2%;
+}
+
+#BioDiv{
+    float: left;
+    width: 44%;
+    margin-left: 5%;
+}
+
+#ParisSelfie{
+    /* background-image: url("images/ParisSelfie.JPG");
+    float: right;
+    width: 30%;
+    height: 200px;
+    border: 1px solid red; */
+    background-image: url("images/ParisSelfie.jpg");
+
+    min-height: 550px; 
+
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-top: 0%;
+}
+
+.BreakDiv{
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+    background-color: black;
+    height: 100px;
 }
