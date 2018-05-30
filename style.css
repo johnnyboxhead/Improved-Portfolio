@@ -1,0 +1,111 @@
+.container-fluid{
+    padding: 0%;
+    opacity: 1;
+}
+
+/* #AboutMeDiv1{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 10%;
+    background-color: black;
+    color: whitesmoke;
+    padding: 2%;
+    opacity: 1;
+} */
+
+#SignatureDiv {
+    float: left;
+    color: whitesmoke;
+}
+
+#SignatureImage {
+    height: 200px;
+    width: 300px;
+    opacity: .25;
+    
+}
+
+#parallax1 {
+    /* The image used */
+    background-image: url("images/RichmondSkyline.jpg");
+
+    /* Set a specific height */
+    min-height: 550px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: .5; */
+}
+
+#parallax2 {
+    /* The image used */
+    background-image: url("images/OBXSunset.jpg");
+
+    /* Set a specific height */
+    min-height: 550px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+    padding-top: 50px;
+    /* opacity: .5; */
+}
+
+#parallax3 {
+    background-image: url("images/ParisSunset.jpg");
+
+    min-height: 550px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+}
+
+.parallax3 {
+
+    min-height: 200px;
+
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.BreakDiv{
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+    background-color: black;
+    height: 100px;
+}
+
+#AboutMeDiv1{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 10%;
+    background-color: black;
+    color: whitesmoke;
+    padding: 2%;
+    opacity: 1;
+}
+
+#AboutMeDiv2{
+    float: right;
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 10%;
+    background-color: black;
+    color: whitesmoke;
+    padding: 2%;
+}
