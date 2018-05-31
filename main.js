@@ -13,4 +13,5 @@ function parallax(){
     $("#AboutMeDiv2").css("margin-top", (-15+((wScroll*12)/625))+"%");
     $("#ParisSelfie").css("background-position", "right " + (500+(((wScroll*.5)*.5)*-1))+"px");
     $("#SpeakIT").css("background-position", "left " + (750+(((wScroll*.5)*.5)*-1))+"px");
+    $("#GatheRVA").css("background-position", "right " + (900+(((wScroll*.5)*.5)*-1))+"px");
 }
