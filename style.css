@@ -99,10 +99,11 @@
     width: 30%;
     margin-left: 5%;
     margin-top: 10%;
-    background-color: black;
+    background-color: rgb(51, 50, 50);
     color: whitesmoke;
     padding: 2%;
-    opacity: .75;
+    /* opacity: .75; */
+    box-shadow: 2px 2px 5px black;
 }
 
 #AboutMeDiv2{
@@ -110,10 +111,11 @@
     width: 30%;
     margin-right: 5%;
     margin-top: 10%;
-    background-color: black;
+    background-color: rgb(51, 50, 50);
     color: whitesmoke;
     padding: 2%;
-    opacity: .75;
+    /* opacity: .75; */
+    box-shadow: 2px 2px 5px black;
 }
 
 #BioDiv{
