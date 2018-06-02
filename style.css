@@ -236,3 +236,37 @@
     background-size: 50%;
     margin-top: 5%;
 }
+
+@media only screen and (max-width: 768px){
+    p {
+        font-size: 12px;
+    }
+
+    #BioPara1{
+        display: none;
+    }
+
+    #AboutMeDiv1 {
+        width: 60%;
+    }
+
+    #AboutMeDiv1-2 {
+        width: 60%;
+    }
+
+    #AboutMeDiv2 {
+        width: 60%;
+    }
+
+    #Project2{
+        margin-top: 20%;
+    }
+
+    #Project3{
+        margin-top: 40%;
+    }
+
+    #Project4{
+        margin-top: 50%;
+    }
+}
