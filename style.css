@@ -3,6 +3,10 @@
     scroll-behavior: smooth;
 }
 
+#MobileNavbar{
+    display: none;
+}
+
 .container-fluid{
     padding: 0%;
     opacity: 1;
@@ -115,7 +119,7 @@
 #AboutMeDiv1-2{
     float: right;
     width: 30%;
-    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 30%;
     background-color: rgb(51, 50, 50);
     color: whitesmoke;
@@ -126,7 +130,8 @@
 
 #AboutMeDiv2{
     float: right;
-    width: 30%;
+    width: 50%;
+    margin-left: 10%;
     margin-right: 40%;
     margin-top: 5%;
     background-color: rgb(51, 50, 50);
@@ -237,7 +242,18 @@
     margin-top: 5%;
 }
 
+@media only screen and (max-width: 992px){
+    #WebNavbar{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 768px){
+
+    #WebNavbar{
+        display: none;
+    }
+    
     p {
         font-size: 12px;
     }
