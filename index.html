@@ -12,50 +12,50 @@
     <link rel="icon" type="image/png" href="images/JHFavicon.png">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Johnny Heath</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            <a class="nav-item nav-link" href="#BreakDiv1">A Little About Me</a>
+            <a class="nav-item nav-link" href="#BreakDiv3">Bio</a>
+            <a class="nav-item nav-link" href="#BreakDiv4">Portfolio</a>
           </div>
         </div>
     </nav>
     <div class="container-fluid">
-        <div id="SignatureDiv" class="col-md-4">  
+        <div id="SignatureDiv" class="row">  
             <img src="images/Signature.jpg" id="SignatureImage">
             <p id="SignaturePara">(That's Johnny Heath for those of you not fluent in chicken scratch)</p>
             </div>
         <div id="parallax1" class="parallax"></div>
 
-        <div class="BreakDiv" class="col-md-4">
-            <p>Enter</p>
-            <i class="fa fa-angle-double-down" style="font-size:36px; color: whitesmoke"></i>
+        <div class="BreakDiv" id="BreakDiv1" class="row">
+            <p class="col-md-12">Enter</p>
+            <i class="fa fa-angle-double-down col-md-12" style="font-size:36px; color: whitesmoke"></i>
         </div>
 
-        <div id="AboutMeDiv1" class="col-md-4">
+        <div id="AboutMeDiv1" class="row">
             <p id="AboutMePara">My name is Johnny Heath and I'm a full stack web developer from Richmond, VA who loves to live life to the fullest.</p>
+        </div>
+        <div id="AboutMeDiv1-2">
+            <p id="AboutMePara">My goal is to create visually stunning websites leveraging my skills in web design, backend logic, and visual media (photography/video) that draw users in and leave them wanting more.</p>
         </div>
         <div id="parallax2" class="parallax"></div>
 
-        <div class="BreakDiv" class="col-md-4">
-            <p>Keep Scrooling for more cool stuff</p>
+        <div class="BreakDiv" id="BreakDiv2" class="col-md-4">
             <i class="fa fa-angle-double-down" style="font-size:36px; color: whitesmoke"></i>
         </div>
 
         <div id="AboutMeDiv2">
-            <p id="AboutMePara">My goal is to create visually stunning websites leveraging my skills in web design, backend logic, and visual media (photography/video) that draw users in and leave them wanting more.</p>
+            <p id="AboutMePara">I have skills in HTML, CSS, Bootstrap, Javascript, jQuery, Node, Express, MySQL, Sequelize, MongoDB, and connecting to APIs.</p>
         </div>
 
         <div id="parallax3" class="parallax"></div>
 
-        <div class="BreakDiv" class="col-md-4">
-            <p>And ...keep scrolling some more, I promise there is more cool stuff</p>
+        <div class="BreakDiv" id="BreakDiv3" class="col-md-4">
             <i class="fa fa-angle-double-down" style="font-size:36px; color: whitesmoke"></i>
         </div>
 
@@ -78,15 +78,14 @@
         <br>
         <br>
 
-        <div class="BreakDiv" class="col-md-4">
-            <p>Now on to my portfolio of projects</p>
+        <div class="BreakDiv" id="BreakDiv4" class="col-md-4">
+            <p>My portfolio</p>
             <i class="fa fa-angle-double-down" style="font-size:36px; color: whitesmoke"></i>
         </div>
 
         <div id="Project1">
             <h2>SpeakIT</h2>
             <p>This was a group project with a concept of connecting users who want to learn how to speak other languages with users who are already fluent speakers of those other languages.  This would be a way to learn another language naturally/conversationally without using a program like Babel or Rosetta Stone to do so.</p>
-            <br>
             <br>
             <p>Key elements in this project were the ability to create users (including username/password), ability to retrieve data from a database, ability to connect users, and the ability to chat.  My parts of the project were: writing the routes for returning information from our users table, developing the routes/models for the connections table, and returning connected users from the connections table.</p>
         </div>
@@ -98,11 +97,28 @@
             <h2>GatheRVA</h2>
             <p>This was another group project where we decided to tackle the challenge of figuring out what to do next weekend in Richmond, VA.  While there are plenty of event calendars, none of them aggregate inputs from both open source APIs and events created by users of the website, GatheRVA does just that.</p>
             <br>
-            <br>
             <p>Key elements in this project were the ability to pull data from APIs, parsing and rendering the API data on our webpage, and using Firebase storage to allow users to create new events.  My parts of this project were pulling data from the eventful API, parsing it, then rendering it to the webpage.  I also shot, edited, and added the video (including drone footage) to the background.</p>
         </div>
         <a href="https://anyakilpatrick.github.io/GatheRVA/" target="_blank">
             <div id="GatheRVA" class="parallax" data-toggle="tooltip" data-placement="bottom" title="Click to check it out for yourself"></div>
+        </a>
+        <div id="Project3">
+            <h2>Bamazon</h2>
+            <p>This was an individual project to create a Node application that simulates a store in Terminal/Gitbash.  The users are able to make purchases which are then deducted from the store's inventory.  Managers are able to add items and update inventory.</p>
+            <br>
+            <p>Key elements in this project were the ability to save the inventory in a MySQL database, querying the database to retrieve items, using Inquirer for users to select products, then using queries to update inventory.  While this isn't much to look at, it was fun to create and to use.</p>
+        </div>
+        <a href="https://github.com/johnnyboxhead/Bamazon" target="_blank">
+            <div id="Bamazon" class="parallax" data-toggle="tooltip" data-placement="bottom" title="Click to check it out for yourself"></div>
+        </a>              
+        <div id="Project4">
+            <h2>Giftastic</h2>
+            <p>This was an individual project to create a website that is able to retrieve and watch .gifs based on a user's input.  The user can select which of the three pre-selected vehicles they want to see burn rubber or can add a vehicle of their choice.  Once a vehicle button has been added to the top of the page the user can press that button to return 10 gifs of that vehicle.  The user can then click on any thumbnail to start the .gif and click it again to stop it.</p>
+            <br>
+            <p>Key elements in this project were the ability to take input from a user and pass that into an call to the Giphy API.  Once the return from the API is recieved it then has to be parsed and rendered on the front end.</p>
+        </div>
+        <a href="https://johnnyboxhead.github.io/GifTastic/" target="_blank">
+            <div id="Giftastic" class="parallax" data-toggle="tooltip" data-placement="bottom" title="Click to check it out for yourself"></div>
         </a>        
     </div>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

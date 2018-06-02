@@ -1,6 +1,12 @@
+.nav-item {
+    transition: 1s;
+    scroll-behavior: smooth;
+}
+
 .container-fluid{
     padding: 0%;
     opacity: 1;
+    scroll-behavior: smooth;
 }
 
 /* #AboutMeDiv1{
@@ -102,19 +108,31 @@
     background-color: rgb(51, 50, 50);
     color: whitesmoke;
     padding: 2%;
-    /* opacity: .75; */
+    opacity: .75;
+    box-shadow: 2px 2px 5px black;
+}
+
+#AboutMeDiv1-2{
+    float: right;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 30%;
+    background-color: rgb(51, 50, 50);
+    color: whitesmoke;
+    padding: 2%;
+    opacity: .75;
     box-shadow: 2px 2px 5px black;
 }
 
 #AboutMeDiv2{
     float: right;
     width: 30%;
-    margin-right: 5%;
-    margin-top: 10%;
+    margin-right: 40%;
+    margin-top: 5%;
     background-color: rgb(51, 50, 50);
     color: whitesmoke;
     padding: 2%;
-    /* opacity: .75; */
+    opacity: .75;
     box-shadow: 2px 2px 5px black;
 }
 
@@ -167,7 +185,7 @@
     width: 44%;
     margin-left: 5%;
     min-height: 600px;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 #GatheRVA {
@@ -178,5 +196,43 @@
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50%;
-    margin-top: 0%;
+    margin-top: 5%;
+}
+
+#Project3 {
+    float: right;
+    width: 44%;
+    margin-left: 5%;
+    min-height: 600px;
+    margin-top: 10%;
+}
+
+#Bamazon {
+    background-image: url("images/Bamazon.jpg");
+
+    min-height: 550px; 
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-top: 5%;
+}
+
+#Project4 {
+    float: left;
+    width: 44%;
+    margin-left: 5%;
+    min-height: 600px;
+    margin-top: 10%;
+}
+
+#Giftastic {
+    background-image: url("images/Giftastic.jpg");
+
+    min-height: 550px; 
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    margin-top: 5%;
 }
