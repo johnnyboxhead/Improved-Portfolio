@@ -301,10 +301,14 @@
     color: whitesmoke;
 }
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 1024px){
     #WebNavbar{
         display: none;
     }
+    .connectionlinks{
+        display: none;
+    }
+
 }
 
 @media only screen and (max-width: 768px){
@@ -343,5 +347,27 @@
 
     #Project4{
         margin-top: 50%;
+    }
+
+    #ConnectWithMeDiv{
+        height: 200px;
+    }
+
+    #Github{
+        height: 50px;
+        margin-top: -15%;
+        text-align: center;
+    }
+    
+    #Linkedin{
+        height: 50px;
+        margin-top: 1%;
+        text-align: center;
+    }
+    
+    #Email{
+        height: 50px;
+        margin-top: 1%;
+        text-align: center;
     }
 }
