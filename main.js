@@ -1,6 +1,31 @@
 $(document).ready(function(){
     $(".nav-item").scroll({duration: 500})
     console.log("it is working again!!!!!!")
+
+ 
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+    
+        // Store hash
+        var hash = this.hash;
+    
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 800, function(){
+        
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+        });
+        } // End if
+    });
+
 })
 
 $(window).scroll(function(){
@@ -18,6 +43,7 @@ function parallax(){
     $("#parallax3").css("background-position", "center "+(120+(((wScroll*.2)*.5)*-1))+"px");
     $("#AboutMeDiv2").css("margin-top", (-8+((wScroll*.1)/625))+"%");
     $("#AboutMeDiv2").css("margin-right", (40-(wScroll*.01)+"%"));
+    $("#ConnectWithMeDiv").css("margin-top", (5+(wScroll*.01)+"%"));
     $("#ParisSelfie").css("background-position", "right " + (500+(((wScroll*.5)*.5)*-1))+"px");
     $("#SpeakIT").css("background-position", "left " + (730+(((wScroll*.5)*.5)*-1))+"px");
     $("#GatheRVA").css("background-position", "right " + (900+(((wScroll*.5)*.5)*-1))+"px");

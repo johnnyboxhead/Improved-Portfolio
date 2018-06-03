@@ -141,6 +141,56 @@
     box-shadow: 2px 2px 5px black;
 }
 
+#ConnectWithMeDiv{
+    background-color: black;
+    opacity: .75;
+    width: 50%;
+    height: 150px;
+    float: right;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+#ConnectWithMePara{
+    text-align: center;
+    height: 50px;
+    color: whitesmoke;
+}
+
+#Github{
+    height: 50px;
+    margin-top: -4%;
+    text-align: center;
+}
+
+#Linkedin{
+    height: 50px;
+    margin-top: -4%;
+    text-align: center;
+}
+
+#Email{
+    height: 50px;
+    margin-top: -4%;
+    text-align: center;
+}
+
+#PhoneNumber{
+    height: 50px;
+    margin-top: -4%;
+    text-align: center;
+}
+
+.connectionlinks{
+    font-size: 10px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
 #BioDiv{
     float: left;
     width: 44%;
@@ -240,6 +290,15 @@
     background-repeat: no-repeat;
     background-size: 50%;
     margin-top: 5%;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: black;
+    opacity: .75;
+    color: whitesmoke;
 }
 
 @media only screen and (max-width: 992px){
