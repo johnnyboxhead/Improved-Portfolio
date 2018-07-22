@@ -49,7 +49,7 @@ function parallax(){
     $("#SpeakIT").css("background-position", "left " + (900+(((wScroll*.5)*.5)*-1))+"px");
     $("#GatheRVA").css("background-position", "right " + (1050+(((wScroll*.5)*.5)*-1))+"px");
     $("#Bamazon").css("background-position", "left " + (1200+(((wScroll*.5)*.5)*-1))+"px");
-    $("#Giftastic").css("background-position", "right " + (1200+(((wScroll*.5)*.5)*-1))+"px");
+    $("#Giftastic").css("background-position", "right " + (1350+(((wScroll*.5)*.5)*-1))+"px");
 
     console.log("this is horizontal scroll: "+(10+((wScroll*.05))))
 }

@@ -258,7 +258,7 @@
     width: 44%;
     margin-left: 5%;
     min-height: 600px;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 #GatheRVA {
@@ -268,7 +268,7 @@
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 #Project3 {
@@ -276,7 +276,7 @@
     width: 44%;
     margin-left: 5%;
     min-height: 600px;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 #Bamazon {
@@ -287,7 +287,7 @@
     background-position: left;
     background-repeat: no-repeat;
     background-size: 50%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 #Project4 {
@@ -306,7 +306,7 @@
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 #footer {
@@ -385,6 +385,8 @@
     #P4Para2{
         display: none;
     }
+
+
 
     #ConnectWithMeDiv{
         height: 200px;
