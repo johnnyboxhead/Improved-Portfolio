@@ -354,16 +354,36 @@
         width: 60%;
     }
 
+    #RRPara2{
+        display: none;
+    }
+
+    #P1Para2{
+        display: none;
+    }
+
     #Project2{
         margin-top: 20%;
+    }
+
+    #P2Para2{
+        display: none;
     }
 
     #Project3{
         margin-top: 40%;
     }
 
+    #P3Para2{
+        display: none;
+    }
+
     #Project4{
         margin-top: 50%;
+    }
+
+    #P4Para2{
+        display: none;
     }
 
     #ConnectWithMeDiv{
