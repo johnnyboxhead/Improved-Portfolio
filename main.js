@@ -45,9 +45,10 @@ function parallax(){
     $("#AboutMeDiv2").css("margin-right", (40-(wScroll*.01)+"%"));
     $("#ConnectWithMeDiv").css("margin-top", (5+(wScroll*.01)+"%"));
     $("#ParisSelfie").css("background-position", "right " + (500+(((wScroll*.5)*.5)*-1))+"px");
-    $("#SpeakIT").css("background-position", "left " + (730+(((wScroll*.5)*.5)*-1))+"px");
-    $("#GatheRVA").css("background-position", "right " + (900+(((wScroll*.5)*.5)*-1))+"px");
-    $("#Bamazon").css("background-position", "left " + (1050+(((wScroll*.5)*.5)*-1))+"px");
+    $("#River-Rat").css("background-position", "right " + (700+(((wScroll*.5)*.5)*-1))+"px");
+    $("#SpeakIT").css("background-position", "left " + (900+(((wScroll*.5)*.5)*-1))+"px");
+    $("#GatheRVA").css("background-position", "right " + (1050+(((wScroll*.5)*.5)*-1))+"px");
+    $("#Bamazon").css("background-position", "left " + (1200+(((wScroll*.5)*.5)*-1))+"px");
     $("#Giftastic").css("background-position", "right " + (1200+(((wScroll*.5)*.5)*-1))+"px");
 
     console.log("this is horizontal scroll: "+(10+((wScroll*.05))))
